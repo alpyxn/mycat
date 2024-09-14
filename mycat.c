@@ -21,4 +21,6 @@ int main(int argc, char **argv) {
   while (fgets(buffer, sizeof buffer, fs)) {
     printf("%s", buffer);
   }
+
+  fclose(fs);
 }
